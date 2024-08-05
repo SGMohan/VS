@@ -129,7 +129,7 @@ for (let key in obj) {
 
 //Array of objects
 
-const famMem = [
+/*const famMem = [
     { name: "Abcd", relation: "Father" },
     { name: "Efgh", relation: "Mother" },
     { name: "Mohan", relation: "Myself" },
@@ -138,4 +138,10 @@ const famMem = [
 
 famMem.forEach((mem) => {
     console.log(mem.name, "-", mem.relation)
-})
+})*/
+
+
+let num = 31;
+let num2 = 20;
+let sum = num + num2
+console.log(sum)
