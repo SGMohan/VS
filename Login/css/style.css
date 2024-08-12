@@ -1,0 +1,39 @@
+.container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgb(159, 91, 91),rgb(204, 204, 237));
+}
+
+.login-box {
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 2em;
+    width: 50%;
+
+    form {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        gap: 0.5rem;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            align-items: center;
+        }
+        .mybtn {
+            flex-direction: row;
+            
+        }
+        .links {
+            gap: 0;
+            p {
+                all: unset;
+            }
+        }
+    }
+
+}
