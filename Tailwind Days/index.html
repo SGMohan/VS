@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav class="flex flex-wrap mx-auto items-center justify-around bg-slate-300 px-2 py-2">
+        <div class="logo">
+            <h1 class="text-3xl underline font-bold text-green-600">My Logo</h1>
+        </div>
+        <div class="location">
+            <p>
+                <span class="font-serif font-bold">Delivery loaction:-</span>
+                <span>current location,</span>
+                <span class="font-sans font-bold">Anna Nagar,Chennai-25</span>
+            </p>
+        </div>
+        <div class="login">
+            <button class="btn border-4 px-6 py-2 border-solid border-black bg-primary rounded-md">Login</button>
+        </div>
+    </nav>
+    <div class="text-red-950 text-3xl font-extrabold font-serif m-2 underline">
+        <p class="text-primary">Hello Everyone</p>
+    </div>
+</body>
+</html>
