@@ -1,0 +1,17 @@
+.triangle {
+    background: linear-gradient(to top left, #b00000 50%, transparent 50%);
+}
+.triangle-1 {
+    background: linear-gradient(to top right, #b00000 50%, transparent 50%);
+}
+
+.font {
+    font-family: 'Poppins';
+}
+
+.font-1 {   
+    font-family: 'Inter';
+}
+.square {
+    background: #b00000;
+}
