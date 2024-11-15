@@ -1,0 +1,34 @@
+.bg-radial {
+    background-image: radial-gradient(circle at 30% 30%, #4340b0 100%, #E7E8F3 40%);
+}
+
+.bg-radial1 {
+    background: linear-gradient(180deg, rgb(43, 5, 195) 10%, rgba(216,166,222,1) 94%);
+}
+
+.bg-color
+{
+    background: linear-gradient(95.29deg, #083F9B 0%, #7F56D9 102.25%);
+}
+
+.bg-xyz{
+    background: linear-gradient(180deg, rgba(240, 243, 255, 0) 0%, #D9ECFF 127.78%);
+
+}
+
+.bg-abc{
+    background: linear-gradient(72.2deg, rgba(115, 159, 232, 0.9) 26.49%, rgba(79, 24, 202, 0.9) 85.53%);
+}
+
+.bg-def{
+    background: linear-gradient(256.69deg, #E441FF 18.87%, rgba(25, 1, 248, 0.561637) 64.72%, rgba(0, 179, 255, 0) 123.48%);
+}
+
+.bg-foot {
+    background: linear-gradient(265.4deg, #477AE3 10.58%, rgba(147, 27, 189, 0.85) 98%);
+}
+
+.bg-foot1{
+    background: linear-gradient(265.4deg, #2766e3 40.58%, rgba(147, 27, 189, 0.85) 98%);
+}
+

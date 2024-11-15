@@ -1,8 +1,9 @@
 {
-    "files.autoSave": "afterDelay",
-    "editor.fontSize": 18,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "debug.terminal.clearBeforeReusing": false
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 18,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "debug.terminal.clearBeforeReusing": false,
+  "liveServer.settings.port": 5501
 }

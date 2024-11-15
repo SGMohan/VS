@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Platform</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                       primary: '#5D4FA6',
+                        third: '#9D92E2',
+                    }
+                }
+            }
+        }
+        </script>
+        
+</head>
+<body>
+
+<nav class="bg-white px-4 ">
+    <div class="flex items-center justify-between">
+       
+        <div>
+            <img src="./public/Askmeidentity 2.png" alt="logo" class="h-25">
+        </div>
+
+        <div class="block lg:hidden">
+            <input type="checkbox" id="menu-toggle" class="hidden" />
+            <label for="menu-toggle" class="flex flex-col gap-1 cursor-pointer">
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </label>
+        </div>
+
+       
+        <ul class="hidden lg:flex flex-row justify-center gap-12">
+            <li><a href="#" class="font-semibold hover:underline hover:text-indigo-400">Home</a></li>
+            <li><a href="#" class="font-semibold hover:underline hover:text-indigo-400">About</a></li>
+            <li><a href="#" class="font-semibold hover:underline hover:text-indigo-400">Courses</a></li>
+            <li><a href="#" class="font-semibold hover:underline hover:text-indigo-400">Contact</a></li>
+        </ul>
+
+       
+        <div class="flex flex-row gap-4">
+            <img src="./public/Icon.png" alt="icon" class="hidden lg:block md:block">
+            <img src="./public/Icon (1).png" alt="icon1" class="hidden lg:block md:block">
+            <img src="./public/Icon (2).png" alt="icon2" class="hidden lg:block md:block">
+        </div>
+
+        <div class="hidden lg:flex gap-14">
+            <button class="underline">Login</button>
+            <button class="border-2 px-8 py-3 rounded-lg bg-color text-white">Signup</button>
+        </div>
+    </div>
+
+</nav>
+
+<div class="flex flex-col lg:flex-row bg-radial px-4 lg:px-12">
+    <div class="w-full lg:w-1/2 pl-0 lg:pl-12 mt-10">
+        <p class="uppercase mb-12 tracking-wide text-white text-lg">Successful coaches are visionaries</p>
+        <h1 class="font-bold text-4xl lg:text-7xl text-white">Good <span class="text-blue-600">coaching</span>
+            is good teaching & nothing else.</h1>
+        <div class="mt-8 space-y-4 lg:space-x-4 lg:flex-row flex-col gap-4 lg:flex lg:mt-16">
+            <button type="button" class="text-lg text-white border-2 rounded-lg px-6 py-3 w-full lg:w-auto">View
+                Courses</button>
+            <button type="button" class="text-lg text-white rounded-lg px-6 py-3 w-full lg:w-auto">Get Free
+                Consultation</button>
+        </div>
+        <div class="flex px-2 py-2 rounded-lg bg-white mt-12">
+            <input type="text" placeholder="What do you want to learn today?"
+                class="lg:text-center text-black font-bold py-2 px-0 block w-full rounded-lg text-md tracking-wider ">
+            <button type="button" class="py-3 px-6 bg-color rounded-lg flex items-center gap-2 text-white font-bold ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-search bg-secondary" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>Search</button>
+        </div>
+    </div>
+
+    <div class="w-full lg:w-1/2 flex flex-col lg:flex-row mt-8 lg:mt-0 relative">
+        <div class="flex flex-col lg:flex-row gap-4">
+            <div class="my-4 lg:my-12">
+                <img src="./public/group.png" alt="grp" class="w-[100px] h-[130px] hidden lg:block">
+            </div>
+            <div class="lg:flex flex-col text-xs tracking-widest my-4 lg:my-12 text-white font-semibold sm:my-0">
+                <h3 class="lg:mb-2 sm:m-0 ">Shyam</h3>
+                <p>
+                    In a coaching role, you ask the questions and rely more on your
+                    staff, who become the experts, to provide the information.
+                </p>
+                <span class="mt-2 text-sky-500">4.9</span>
+            </div>
+        </div>
+        <img src="./public/profile.png" alt="profile" class="lg:w-full h-full object-cover">
+    </div>
+</div>
+
+
+<div class="bg-radial1 flex flex-row items-center justify-around ">
+    <img src="./public/brand4.png" alt="brand4" class="mt-12 mb-8 w-[100px] hidden lg:block md:block">
+    <img src="./public/brand2.png" alt="brand2" class="mt-12 mb-8 w-[100px] hidden lg:block md:block">
+    <img src="./public/brand4.png" alt="brand4" class="mt-12 mb-8 w-[100px] hidden lg:block md:block">
+    <img src="./public/brand3.png" alt="brand3" class="mt-12 mb-8 w-[100px] hidden lg:block md:block">
+    <img src="./public/brand1.png" alt="brand1" class="mt-12 mb-8 w-[100px] hidden lg:block md:block">
+    <img src="./public/brand2.png" alt="brand2" class="mt-12 mb-8 w-[100px] hidden lg:block md:block">
+</div>
+
+
+<div class="bg-xyz">
+    <div class="flex flex-col px-4 sm:px-8 md:px-16 lg:px-32">
+    <h1 class="font-bold text-center text-4xl sm:text-5xl lg:text-6xl mb-4 sm:mb-6 mt-24">Featured <span class="text-blue-500">Course</span></h1>
+    <p class="uppercase tracking-wider text-center text-xl sm:text-2xl lg:text-3xl font-bold">The feature courses are we invented our teaching part</p>
+</div>
+
+    
+    <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 container mx-auto gap-10 px-6 sm:px-14 lg:px-28 mt-24">
+        <div class="shadow-xl rounded-xl my-12 bg-white w-full">
+            <img src="./public/mask.png" alt="mask" class="w-full h-auto">
+            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+                <p class="ml-6">1,957 Students</p>
+                <p class="mr-6">01h 59m</p>
+            </div>
+            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Motion Graphics: Create a Nice <br>
+                Typography Animation</h4>
+            <div class="flex justify-between">
+                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
+                    <path
+                        d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M11.375 22.75C12.2725 22.75 13 22.0225 13 21.125C13 20.2275 12.2725 19.5 11.375 19.5C10.4775 19.5 9.75 20.2275 9.75 21.125C9.75 22.0225 10.4775 22.75 11.375 22.75Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M17.875 22.75C18.7725 22.75 19.5 22.0225 19.5 21.125C19.5 20.2275 18.7725 19.5 17.875 19.5C16.9775 19.5 16.25 20.2275 16.25 21.125C16.25 22.0225 16.9775 22.75 17.875 22.75Z"
+                        fill="#5E6775" />
+                </svg>
+            </div>
+        </div>
+    
+        <div class="shadow-xl rounded-xl my-12 bg-white w-full">
+            <img src="./public/mask(1).png" alt="mask1" class="w-full h-auto">
+            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+                <p class="ml-6">9,575 Students</p>
+                <p class="mr-6">01h 59m</p>
+            </div>
+            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Advance PHP knowledge with JS to <br>
+                make smart web</h4>
+            <div class="flex justify-between">
+                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
+                    <path
+                        d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M11.375 22.75C12.2725 22.75 13 22.0225 13 21.125C13 20.2275 12.2725 19.5 11.375 19.5C10.4775 19.5 9.75 20.2275 9.75 21.125C9.75 22.0225 10.4775 22.75 11.375 22.75Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M17.875 22.75C18.7725 22.75 19.5 22.0225 19.5 21.125C19.5 20.2275 18.7725 19.5 17.875 19.5C16.9775 19.5 16.25 20.2275 16.25 21.125C16.25 22.0225 16.9775 22.75 17.875 22.75Z"
+                        fill="#5E6775" />
+                </svg>
+            </div>
+        </div>
+    
+        <div class="shadow-xl rounded-xl my-12 bg-white w-full">
+            <img src="./public/mask(2).png" alt="mask" class="w-full h-auto">
+            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+                <p class="ml-6">2957 Students</p>
+                <p class="mr-6">02h 49m</p>
+            </div>
+            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Education Software and PHP and JS <br>
+                System Script</h4>
+            <div class="flex justify-between">
+                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
+                    <path
+                        d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M11.375 22.75C12.2725 22.75 13 22.0225 13 21.125C13 20.2275 12.2725 19.5 11.375 19.5C10.4775 19.5 9.75 20.2275 9.75 21.125C9.75 22.0225 10.4775 22.75 11.375 22.75Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M17.875 22.75C18.7725 22.75 19.5 22.0225 19.5 21.125C19.5 20.2275 18.7725 19.5 17.875 19.5C16.9775 19.5 16.25 20.2275 16.25 21.125C16.25 22.0225 16.9775 22.75 17.875 22.75Z"
+                        fill="#5E6775" />
+                </svg>
+            </div>
+        </div>
+    
+        <div class="shadow-xl rounded-xl my-12 bg-white w-full">
+            <img src="./public/mask(3).png" alt="mask3" class="w-full h-auto">
+            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+                <p class="ml-6">5,457 Students</p>
+                <p class="mr-6">01h 49m</p>
+            </div>
+            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">The Complete Financial Analyst <br>
+                Training & Investing</h4>
+            <div class="flex justify-between">
+                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
+                    <path
+                        d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M11.375 22.75C12.2725 22.75 13 22.0225 13 21.125C13 20.2275 12.2725 19.5 11.375 19.5C10.4775 19.5 9.75 20.2275 9.75 21.125C9.75 22.0225 10.4775 22.75 11.375 22.75Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M17.875 22.75C18.7725 22.75 19.5 22.0225 19.5 21.125C19.5 20.2275 18.7725 19.5 17.875 19.5C16.9775 19.5 16.25 20.2275 16.25 21.125C16.25 22.0225 16.9775 22.75 17.875 22.75Z"
+                        fill="#5E6775" />
+                </svg>
+            </div>
+        </div>
+    
+        <div class="shadow-xl rounded-xl my-12 bg-white w-full">
+            <img src="./public/mask(4).png" alt="mask4" class="w-full h-auto">
+            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+                <p class="ml-6">595 Students</p>
+                <p class="mr-6">01h 49m</p>
+            </div>
+            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Marketing 2023: Complete Guide To <br>
+                Instagram Growth</h4>
+            <div class="flex justify-between">
+                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
+                    <path
+                        d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M11.375 22.75C12.2725 22.75 13 22.0225 13 21.125C13 20.2275 12.2725 19.5 11.375 19.5C10.4775 19.5 9.75 20.2275 9.75 21.125C9.75 22.0225 10.4775 22.75 11.375 22.75Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M17.875 22.75C18.7725 22.75 19.5 22.0225 19.5 21.125C19.5 20.2275 18.7725 19.5 17.875 19.5C16.9775 19.5 16.25 20.2275 16.25 21.125C16.25 22.0225 16.9775 22.75 17.875 22.75Z"
+                        fill="#5E6775" />
+                </svg>
+            </div>
+        </div>
+    
+        <div class="shadow-xl rounded-xl my-12 bg-white w-full">
+            <img src="./public/mask(5).png" alt="mask5" class="w-full h-auto">
+            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+                <p class="ml-6">458 Students</p>
+                <p class="mr-6">03h 00m</p>
+            </div>
+            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Learn 3D Modelling and Design <br> for
+                Beginners</h4>
+            <div class="flex justify-between">
+                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
+                    <path
+                        d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M11.375 22.75C12.2725 22.75 13 22.0225 13 21.125C13 20.2275 12.2725 19.5 11.375 19.5C10.4775 19.5 9.75 20.2275 9.75 21.125C9.75 22.0225 10.4775 22.75 11.375 22.75Z"
+                        fill="#5E6775" />
+                    <path
+                        d="M17.875 22.75C18.7725 22.75 19.5 22.0225 19.5 21.125C19.5 20.2275 18.7725 19.5 17.875 19.5C16.9775 19.5 16.25 20.2275 16.25 21.125C16.25 22.0225 16.9775 22.75 17.875 22.75Z"
+                        fill="#5E6775" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center ">
+        <button class="border-2 px-8 py-3 rounded-lg bg-color text-white my-10 font-bold mb-24">Explore Now</button>
+    </div>
+</div>
+
+<div class="bg-abc py-24 ">
+    <div class="flex items-center flex-col text-center">
+        <h2 class="font-bold text-4xl sm:text-3xl md:text-4xl lg:text-5xl mb-2 text-white tracking-tight">
+            Why <span class="text-blue-700">learn</span> with our courses?
+        </h2>
+        <p class="font-light text-2xl sm:text-lg md:text-xl lg:text-2xl mt-2 text-white">
+            We are providing the best courses and top classes. And <br> extraordinary placement training.....
+        </p>
+    </div>
+
+
+   
+    <div class="flex flex-col items-center lg:flex-row justify-center gap-8 lg:gap-28">
+      
+        <div class="mt-24 max-w-md flex flex-col items-center text-center">
+            <img src="./public/Icon (3).png" alt="icon3" class="w-20 h-20">
+            <h4 class="text-white text-xl font-bold mt-8 mb-6">01. Learn</h4>
+            <p class="text-white my-2">Learn continually. There is always <br>“one more thing” to learn.</p>
+        </div>
+
+    
+        <img src="./public/Line 15.png" alt="line" class="h-40 mt-28 hidden lg:block">
+
+        <div class="mt-24 max-w-md flex flex-col items-center text-center">
+            <img src="./public/Icon (4).png" alt="icon4" class="w-20 h-20">
+            <h4 class="text-white text-xl font-bold mt-8 mb-6">02. Graduate</h4>
+            <p class="text-white my-2">Be bold, be courageous, <br> be your best.</p>
+        </div>
+
+    
+        <img src="./public/Line 15.png" alt="line" class="h-40 mt-28 hidden lg:block">
+
+      
+        <div class="mt-24 max-w-md flex flex-col items-center text-center">
+            <img src="./public/Icon (5).png" alt="icon5" class="w-20 h-20">
+            <h4 class="text-white text-xl font-bold mt-8 mb-6">03. Work</h4>
+            <p class="text-white my-2">Great companies are built in <br> the office, with hard work put <br> in by the
+                team.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-xyz py-12">
+    <div class="flex flex-col items-center mt-16 px-4 sm:px-8 md:px-16 lg:px-24">
+        <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-relaxed text-gray-700 text-center">
+            Top <span class="text-blue-700">Categories</span>
+        </h1>
+        <p class="mt-4 font-semibold text-lg sm:text-xl md:text-2xl text-gray-700 text-center tracking-widest mb-4 sm:mb-6">
+            100+ unique online course list designs
+        </p>
+    </div>
+
+    <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 px-8 sm:px-16 md:px-24 lg:px-32 my-14">
+        <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
+            <img src="./public/mask(6).png" alt="mask6" class="w-14">
+            <div class="flex flex-col">
+                <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Digital <br>
+                    Marketing</h2>
+                <p class="mt-8 text-gray-500 font-semibold">25 Courses</p>
+            </div>
+        </div>
+
+        <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
+            <img src="./public/mask(7).png" alt="mask7" class="w-14">
+            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Web <br>
+                Development</h2>
+            <p class="mt-8 text-gray-500 font-semibold">16 Courses</p>
+        </div>
+
+        <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
+            <img src="./public/mask(8).png" alt="mask8" class="w-14">
+            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Art & <br>
+                Humanities</h2>
+            <p class="mt-8 text-gray-500 font-semibold">76 Courses</p>
+        </div>
+
+        <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
+            <img src="./public/mask(9).png" alt="mask9" class="w-14">
+            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Personal <br>
+                Development</h2>
+            <p class="mt-8 text-gray-500 font-semibold">22 Courses</p>
+        </div>
+
+        <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
+            <img src="./public/mask(10).png" alt="mask10" class="w-14">
+            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">IT and <br>
+                Software</h2>
+            <p class="mt-8 text-gray-500 font-semibold">110 Courses</p>
+        </div>
+
+        <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
+            <img src="./public/mask(11).png" alt="mask11" class="w-14">
+            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Graphic <br>
+                Design</h2>
+            <p class="mt-8 text-gray-500 font-semibold">85 Courses</p>
+        </div>
+    </div>
+</div>
+
+<div class="container mx-auto flex justify-center relative bg-white">
+    <div class="relative">
+        <svg width="80" height="82" viewBox="0 0 80 82" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-14 absolute top-28 left-96 hidden lg:block">
+            <path opacity="0.5"
+                d="M79.5613 64.997C81.8552 75.5273 71.8897 84.592 61.6232 81.3135L9.93831 64.8086C-0.328133 61.5301 -3.19565 48.3674 4.7768 41.1156L44.913 4.60758C52.8854 -2.64419 65.7185 1.45386 68.0125 11.9841L79.5613 64.997Z"
+                fill="#0094E7" />
+        </svg>   
+        <svg width="80" height="82" viewBox="0 0 80 82" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-16 -right-2 w-14 hidden lg:block">
+            <path opacity="0.5"
+                d="M79.5613 64.997C81.8552 75.5273 71.8897 84.592 61.6232 81.3135L9.93831 64.8086C-0.328133 61.5301 -3.19565 48.3674 4.7768 41.1156L44.913 4.60758C52.8854 -2.64419 65.7185 1.45386 68.0125 11.9841L79.5613 64.997Z"
+                fill="#0094E7" />
+        </svg>
+    </div>
+    <div class="my-24 px-8 py-16 sm:px-16 md:px-24 lg:px-52 flex flex-col items-center bg-def rounded-2xl relative">
+            <div class="absolute w-10 h-10 top-16 left-16 hidden lg:block">
+                <img src="./public/e1.png" alt="e1">
+            </div>
+            <div class="absolute w-10 h-10 top-36 left-32 hidden lg:block">
+                <img src="./public/e2.png" alt="e2">
+            </div>
+            <div class="absolute w-10 h-10 top-56 left-12 hidden lg:block">
+                <img src="./public/e3.png" alt="e3">
+            </div>
+
+            <h1 class="text-center text-5xl font-bold tracking- text-white">
+                Subscribe For Get Update <br>
+                Every New Courses
+            </h1>
+            <p class="text-md tracking-widest my-8 text-white">
+                20k+ students daily learn with Eduvi. Subscribe for new courses.
+            </p>
+            
+            <div class="md:flex items-center w-full lg:flex flex-row justify-center">
+                <input type="text" class="py-4 px-6 rounded-xl text-white text-left placeholder-white font-bold shadow-lg bg-transparent w-full sm:w-auto" placeholder="enter your email">
+                <button type="button" class="py-4 px-10 rounded-xl bg-blue-700 font-bold text-md text-white">Subscribe</button>
+            </div>
+        
+            <div class="absolute w-10 h-10 top-16 right-16 hidden lg:block">
+                <img src="./public/e4.png" alt="e4">
+            </div>
+            <div class="absolute w-10 h-10 top-36 right-32 hidden lg:block">
+                <img src="./public/e5.png" alt="e5">
+            </div>
+            <div class="absolute w-10 h-10 top-56 right-12 hidden lg:block">
+                <img src="./public/e6.png" alt="e6">
+            </div>
+    </div>
+    <svg width="80" height="82" viewBox="0 0 80 82" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-2 right-32 w-14 hidden lg:block">
+        <path opacity="0.5"
+            d="M79.5613 64.997C81.8552 75.5273 71.8897 84.592 61.6232 81.3135L9.93831 64.8086C-0.328133 61.5301 -3.19565 48.3674 4.7768 41.1156L44.913 4.60758C52.8854 -2.64419 65.7185 1.45386 68.0125 11.9841L79.5613 64.997Z"
+            fill="#0094E7" />
+    </svg>
+</div>
+
+<div class="container mx-auto flex justify-center mt-24 mb-24 relative">
+    
+    <img src="./public/v2.png" alt="video" class="lg:w-28 absolute top-32 hidden lg:block">
+
+    
+    <img src="./public/v1.png" alt="video" class="w-full sm:w-[62%] md:w-[52%] lg:w-[49%] px-4 sm:px-8 lg:px-12">
+        
+        <svg width="324" height="260" viewBox="0 0 324 260" fill="none" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" class="w-52 absolute top-44 right-1/4 hidden lg:block">
+            <rect width="324" height="260" fill="url(#pattern0_1_249)" />
+            <defs>
+                <pattern id="pattern0_1_249" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_1_249" transform="scale(0.00308642 0.00384615)" />
+                </pattern>
+                <image id="image0_1_249" width="324" height="260"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAAEECAYAAABQsk2qAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpiN2QxZWJmNS01ZDMxLTQxOWQtYWIwNy1kYjUyMjI3NDAyMjAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDRCRkUzQTIwMUIzMTFFRDhFQzE5MUJDRjQ4N0I4NUMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDRCRkUzQTEwMUIzMTFFRDhFQzE5MUJDRjQ4N0I4NUMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6YWM5OThkNzYtZTAwYS00NzMxLWI1MjUtNGZhMjI4NDQwZGEyIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6M2U3NTkyOTQtYWZiMC0xMTc3LWI5ZmQt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" />
+            </defs>
+        </svg>
+
+</div>
+
+<div class="bg-xyz relative">
+    <div class="flex flex-col items-center mt-16 px-4 sm:px-8">
+        <h2 class="font-bold text-2xl sm:text-3xl lg:text-4xl mt-8 lg:mt-16 mb-4 lg:mb-8 tracking-tight text-blue-600">
+            Testimonials</h2>
+        <p class="text-lg sm:text-xl lg:text-2xl mb-6 lg:mb-7 font-semibold text-gray-500 tracking-tight">What our
+            students say about us</p>
+    </div>
+
+    <!-- Testimonials Cards -->
+    <div class="md:flex items-center flex-col lg:flex-row lg:justify-center relative py-8 sm:py-12 lg:py-16 gap-8 lg:gap-0 ">
+        
+        <div
+            class="max-w-md px-6 sm:px-10 py-6 sm:py-4 my-6 lg:my-16 relative shadow-2xl lg:left-6 text-gray-400 font-bold leading-6 bg-white shadow-transparent">
+            <img src="./public/pic.png" alt="pic" class="w-10 absolute left-1/2 transform -translate-x-1/2 -top-6">
+            <p class="text-xs sm:text-xs mt-6 text-center lg:text-left">Such an amazing traniner and easily understand the entire
+            syllabus, and the guidence will be super and good to the way of explaning.</p>
+            <img src="./public/review.png" alt="review" class="w-20 sm:w-24 mt-4 sm:mt-6 mx-auto lg:mx-0">
+        </div>
+
+        <div
+            class="max-w-md px-6 sm:px-10 py-6 sm:py-4 my-6 lg:my-16 relative shadow-2xl text-gray-400 font-bold leading-6 lg:-top-12 bg-white">
+            <img src="./public/pic.png" alt="pic" class="w-10 absolute left-1/2 transform -translate-x-1/2 -top-6">
+            <p class="text-xs sm:text-xs mt-6 text-center lg:text-left">Such an amazing traniner and easily understand the entire
+            syllabus, and the guidence will be super and good to the way of explaning.</p>
+            <img src="./public/review.png" alt="review" class="w-20 sm:w-24 mt-4 sm:mt-6 mx-auto lg:mx-0">
+        </div>
+
+       
+        <div
+            class="max-w-md px-6 sm:px-10 py-6 sm:py-4 my-6 lg:my-16 relative shadow-2xl text-gray-400 font-bold leading-6 lg:right-6 bg-white shadow-transparent">
+            <img src="./public/pic.png" alt="pic" class="w-10 absolute left-1/2 transform -translate-x-1/2 -top-6">
+            <p class="text-xs sm:text-xs mt-6 text-center lg:text-left">Such an amazing traniner and easily understand the entire
+            syllabus, and the guidence will be super and good to the way of explaning.</p>
+            <img src="./public/review.png" alt="review" class="w-20 sm:w-24 mt-4 sm:mt-6 mx-auto lg:mx-0">
+        </div>
+    </div>
+
+    <div class="flex justify-center lg:justify-end absolute -bottom-4 lg:-bottom-2 right-10 mb-8 space-x-4">
+        <img src="./public/arrowr.png" alt="arrowright" class="w-6 sm:w-8">
+        <img src="./public/arrowl.png" alt="arrowleft" class="w-6 sm:w-8">
+    </div>
+</div>
+
+
+<footer class="bg-foot text-black py-12">
+    <div class="container mx-auto px-4">
+        
+        <div class="flex flex-col lg:flex-row lg:justify-around gap-8 text-center lg:text-left">
+
+            <div class="flex flex-col items-center lg:items-start">
+                <h3 class="text-2xl font-bold mb-4">Connect</h3>
+                <img src="./public/footlogo.png" alt="Logo" class="w-32 mb-4 lg:mx-0">
+                <p class="text-sm font-medium text-center lg:text-left">
+                    Sri Jaganath Nivas, 8-1-164/345/A/1, <br>
+                    Pragati Colony, Mallepally, <br>
+                    Nawaab Saheb Kunta, Hyd, 500005
+                </p>
+            </div>
+
+           
+            <div class="hidden lg:block">
+                <h3 class="text-2xl font-bold mb-4">Classes</h3>
+                <ul class="space-y-3 text-sm font-bold">
+                    <li>Classroom courses</li>
+                    <li>Virtual classroom courses</li>
+                    <li>E-learning courses</li>
+                    <li>Video Courses</li>
+                    <li>Offline Courses</li>
+                </ul>
+            </div>
+
+        
+            <div class="hidden lg:block">
+                <h3 class="text-2xl font-bold mb-4">Community</h3>
+                <ul class="space-y-3 text-sm font-bold">
+                    <li>Learners</li>
+                    <li>Partners</li>
+                    <li>Developers</li>
+                    <li>Transactions</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+
+         
+            <div class="hidden lg:block">
+                <h3 class="text-2xl font-bold mb-4">Quick Links</h3>
+                <ul class="space-y-3 text-sm font-bold">
+                    <li>Home</li>
+                    <li>Professional Education</li>
+                    <li>Courses</li>
+                    <li>Admissions</li>
+                    <li>Testimonial</li>
+                    <li>Programs</li>
+                </ul>
+            </div>
+
+          
+            <div class="hidden lg:block">
+                <h3 class="text-2xl font-bold mb-4">More</h3>
+                <ul class="space-y-3 text-sm font-bold">
+                    <li>Press</li>
+                    <li>Investors</li>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                    <li>Help</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<footer class="bg-foot1 py-4">
+    <div class="flex flex-col items-center space-y-4">
+        <div class="flex justify-center space-x-6">
+            <img src="./public/Instagram.png" alt="Instagram" class="w-8 sm:w-10 bg-white rounded-full p-1">
+            <img src="./public/WhatsApp (1).png" alt="WhatsApp" class="w-8 sm:w-10 bg-white rounded-full p-1">
+            <img src="./public/Twitter.png" alt="Twitter" class="w-8 sm:w-10 bg-white rounded-full p-1">
+            <img src="./public/LinkedIn.png" alt="LinkedIn" class="w-8 sm:w-10 bg-white rounded-full p-1">
+            <img src="./public/YouTube.png" alt="YouTube" class="w-8 sm:w-10 bg-white rounded-full p-1">
+        </div>
+    </div>
+</footer>
+
+<footer>
+    <div>
+        <div class="bg-[#4253e8] text-center">
+            <p class="text-xs font-semibold text-white ">Copyright @ 2023 askmeidentity. All Rights Reserved</p>
+        </div>
+        <div class="bg-blue-200 py-1">
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+
+</html>
