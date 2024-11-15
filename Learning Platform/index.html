@@ -18,11 +18,13 @@
             }
         }
         </script>
-        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwigley&family=Righteous&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
 </head>
 <body>
 
-<nav class="bg-white px-4 ">
+<nav class="bg-white px-4 righteous-regular ">
     <div class="flex items-center justify-between">
        
         <div>
@@ -40,10 +42,10 @@
 
        
         <ul class="hidden lg:flex flex-row justify-center gap-12">
-            <li><a href="#" class="font-semibold hover:underline hover:text-indigo-400">Home</a></li>
-            <li><a href="#" class="font-semibold hover:underline hover:text-indigo-400">About</a></li>
-            <li><a href="#" class="font-semibold hover:underline hover:text-indigo-400">Courses</a></li>
-            <li><a href="#" class="font-semibold hover:underline hover:text-indigo-400">Contact</a></li>
+            <li><a href="#" class="hover:underline hover:text-indigo-400">Home</a></li>
+            <li><a href="#" class="hover:underline hover:text-indigo-400">About</a></li>
+            <li><a href="#" class="hover:underline hover:text-indigo-400">Courses</a></li>
+            <li><a href="#" class="hover:underline hover:text-indigo-400">Contact</a></li>
         </ul>
 
        
@@ -61,21 +63,21 @@
 
 </nav>
 
-<div class="flex flex-col lg:flex-row bg-radial px-4 lg:px-12">
+<div class="flex flex-col lg:flex-row bg-radial px-4 lg:px-12 righteous-regular">
     <div class="w-full lg:w-1/2 pl-0 lg:pl-12 mt-10">
-        <p class="uppercase mb-12 tracking-wide text-white text-lg">Successful coaches are visionaries</p>
-        <h1 class="font-bold text-4xl lg:text-7xl text-white">Good <span class="text-blue-600">coaching</span>
+        <p class="uppercase mb-12 tracking-wide text-white text-md">Successful coaches are visionaries</p>
+        <h1 class="text-3xl lg:text-7xl text-white">Good <span class="text-blue-600">coaching</span>
             is good teaching & nothing else.</h1>
-        <div class="mt-8 space-y-4 lg:space-x-4 lg:flex-row flex-col gap-4 lg:flex lg:mt-16">
-            <button type="button" class="text-lg text-white border-2 rounded-lg px-6 py-3 w-full lg:w-auto">View
+        <div class="mt-8 space-y-4 space-x-4 flex-row gap-4 ">
+            <button type="button" class="text-md text-white border-2 rounded-lg px-6 py-3 w-full lg:w-auto ">View
                 Courses</button>
-            <button type="button" class="text-lg text-white rounded-lg px-6 py-3 w-full lg:w-auto">Get Free
+            <button type="button" class="text-md text-white rounded-lg px-6 py-3 w-full lg:w-auto">Get Free
                 Consultation</button>
         </div>
         <div class="flex px-2 py-2 rounded-lg bg-white mt-12">
             <input type="text" placeholder="What do you want to learn today?"
-                class="lg:text-center text-black font-bold py-2 px-0 block w-full rounded-lg text-md tracking-wider ">
-            <button type="button" class="py-3 px-6 bg-color rounded-lg flex items-center gap-2 text-white font-bold ">
+                class="lg:text-center text-black py-2 px-0 block w-full rounded-lg text-md tracking-wider ">
+            <button type="button" class="py-3 px-6 bg-color rounded-lg flex items-center gap-2 text-white ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-search bg-secondary" viewBox="0 0 16 16">
                     <path
@@ -89,7 +91,7 @@
             <div class="my-4 lg:my-12">
                 <img src="./public/group.png" alt="grp" class="w-[100px] h-[130px] hidden lg:block">
             </div>
-            <div class="lg:flex flex-col text-xs tracking-widest my-4 lg:my-12 text-white font-semibold sm:my-0">
+            <div class="lg:flex flex-col text-xs tracking-widest my-4 lg:my-12 text-white sm:my-0">
                 <h3 class="lg:mb-2 sm:m-0 ">Shyam</h3>
                 <p>
                     In a coaching role, you ask the questions and rely more on your
@@ -113,25 +115,24 @@
 </div>
 
 
-<div class="bg-xyz">
-    <div class="flex flex-col px-4 sm:px-8 md:px-16 lg:px-32">
-    <h1 class="font-bold text-center text-4xl sm:text-5xl lg:text-6xl mb-4 sm:mb-6 mt-24">Featured <span class="text-blue-500">Course</span></h1>
-    <p class="uppercase tracking-wider text-center text-xl sm:text-2xl lg:text-3xl font-bold">The feature courses are we invented our teaching part</p>
+<div class="bg-xyz ">
+    <div class="flex flex-col px-4 sm:px-8 md:px-16 lg:px-32 ">
+    <h1 class="text-center text-3xl sm:text-5xl lg:text-5xl mb-4 sm:mb-6 mt-24 rowdies-bold">Featured <span class="text-blue-500">Course</span></h1>
+    <p class="uppercase tracking-wide text-center text-lg sm:text-xl lg:text-xl rowdies-regular text-gray-500">The feature courses are we invented our teaching part</p>
 </div>
 
     
-    <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 container mx-auto gap-10 px-6 sm:px-14 lg:px-28 mt-24">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 container mx-auto gap-10 px-6 sm:px-14 lg:px-28 mt-24 saira-regular">
         <div class="shadow-xl rounded-xl my-12 bg-white w-full">
             <img src="./public/mask.png" alt="mask" class="w-full h-auto">
-            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+            <div class="flex justify-between my-6 text-sm text-[#4E596B]">
                 <p class="ml-6">1,957 Students</p>
                 <p class="mr-6">01h 59m</p>
             </div>
-            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Motion Graphics: Create a Nice <br>
+            <h4 class="font-semibold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Motion Graphics: Create a Nice <br>
                 Typography Animation</h4>
             <div class="flex justify-between">
-                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <p class="font-semibold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
                     <path
                         d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
@@ -148,14 +149,14 @@
     
         <div class="shadow-xl rounded-xl my-12 bg-white w-full">
             <img src="./public/mask(1).png" alt="mask1" class="w-full h-auto">
-            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+            <div class="flex justify-between my-6 text-sm text-[#4E596B]">
                 <p class="ml-6">9,575 Students</p>
                 <p class="mr-6">01h 59m</p>
             </div>
-            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Advance PHP knowledge with JS to <br>
+            <h4 class="font-semibold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Advance PHP knowledge with JS to <br>
                 make smart web</h4>
             <div class="flex justify-between">
-                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <p class="font-semibold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
                     <path
                         d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
@@ -172,14 +173,14 @@
     
         <div class="shadow-xl rounded-xl my-12 bg-white w-full">
             <img src="./public/mask(2).png" alt="mask" class="w-full h-auto">
-            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+            <div class="flex justify-between my-6 text-sm text-[#4E596B]">
                 <p class="ml-6">2957 Students</p>
                 <p class="mr-6">02h 49m</p>
             </div>
-            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Education Software and PHP and JS <br>
+            <h4 class="font-semibold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Education Software and PHP and JS <br>
                 System Script</h4>
             <div class="flex justify-between">
-                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <p class="font-semibold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
                     <path
                         d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
@@ -196,14 +197,14 @@
     
         <div class="shadow-xl rounded-xl my-12 bg-white w-full">
             <img src="./public/mask(3).png" alt="mask3" class="w-full h-auto">
-            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+            <div class="flex justify-between my-6 text-sm text-[#4E596B]">
                 <p class="ml-6">5,457 Students</p>
                 <p class="mr-6">01h 49m</p>
             </div>
-            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">The Complete Financial Analyst <br>
+            <h4 class="font-semibold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">The Complete Financial Analyst <br>
                 Training & Investing</h4>
             <div class="flex justify-between">
-                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <p class="font-semibold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
                     <path
                         d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
@@ -220,14 +221,14 @@
     
         <div class="shadow-xl rounded-xl my-12 bg-white w-full">
             <img src="./public/mask(4).png" alt="mask4" class="w-full h-auto">
-            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+            <div class="flex justify-between my-6 text-sm text-[#4E596B]">
                 <p class="ml-6">595 Students</p>
                 <p class="mr-6">01h 49m</p>
             </div>
-            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Marketing 2023: Complete Guide To <br>
+            <h4 class="font-semibold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Marketing 2023: Complete Guide To <br>
                 Instagram Growth</h4>
             <div class="flex justify-between">
-                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <p class="font-semibold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
                     <path
                         d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
@@ -244,14 +245,14 @@
     
         <div class="shadow-xl rounded-xl my-12 bg-white w-full">
             <img src="./public/mask(5).png" alt="mask5" class="w-full h-auto">
-            <div class="flex justify-between my-6 text-sm font-semibold text-[#4E596B]">
+            <div class="flex justify-between my-6 text-sm text-[#4E596B]">
                 <p class="ml-6">458 Students</p>
                 <p class="mr-6">03h 00m</p>
             </div>
-            <h4 class="font-bold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Learn 3D Modelling and Design <br> for
+            <h4 class="font-semibold text-xl ml-6 text-[#324361] sm:text-2xl lg:text-xl">Learn 3D Modelling and Design <br> for
                 Beginners</h4>
             <div class="flex justify-between">
-                <p class="font-bold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
+                <p class="font-semibold text-lg ml-6 mt-8 mb-4 text-gray-500">Rs.499</p>
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-6 mt-3">
                     <path
                         d="M22.7501 4.33336H2.16675V6.50003H4.65841L8.21175 16.25C8.43525 16.8822 8.84882 17.4298 9.39576 17.8177C9.9427 18.2056 10.5962 18.4148 11.2667 18.4167H20.5834V16.25H11.2667C11.0441 16.2499 10.8269 16.1812 10.6447 16.0533C10.4625 15.9254 10.3241 15.7444 10.2484 15.535L9.75008 14.0834H19.8034C20.2736 14.0827 20.7308 13.9291 21.106 13.6457C21.4813 13.3623 21.7541 12.9646 21.8834 12.5125L23.8334 5.7092C23.8774 5.56694 23.8917 5.41712 23.8752 5.26912C23.8588 5.12111 23.812 4.97809 23.7378 4.84898C23.6635 4.71987 23.5635 4.60744 23.4439 4.51873C23.3243 4.43001 23.1877 4.36691 23.0426 4.33336C22.9457 4.31759 22.8469 4.31759 22.7501 4.33336ZM19.7709 11.9167H8.93758L6.96591 6.50003H21.3092L19.7709 11.9167Z"
@@ -268,16 +269,16 @@
     </div>
 
     <div class="flex justify-center ">
-        <button class="border-2 px-8 py-3 rounded-lg bg-color text-white my-10 font-bold mb-24">Explore Now</button>
+        <button class="border-2 px-8 py-3 rounded-lg bg-color text-white my-10  mb-24 righteous-regular">Explore courses</button>
     </div>
 </div>
 
-<div class="bg-abc py-24 ">
+<div class="bg-abc py-24 righteous-regular">
     <div class="flex items-center flex-col text-center">
-        <h2 class="font-bold text-4xl sm:text-3xl md:text-4xl lg:text-5xl mb-2 text-white tracking-tight">
+        <h2 class="text-4xl sm:text-3xl md:text-4xl lg:text-5xl mb-2 text-white ">
             Why <span class="text-blue-700">learn</span> with our courses?
         </h2>
-        <p class="font-light text-2xl sm:text-lg md:text-xl lg:text-2xl mt-2 text-white">
+        <p class="saira-regular text-xl sm:text-lg md:text-xl lg:text-2xl mt-2 text-white">
             We are providing the best courses and top classes. And <br> extraordinary placement training.....
         </p>
     </div>
@@ -288,8 +289,8 @@
       
         <div class="mt-24 max-w-md flex flex-col items-center text-center">
             <img src="./public/Icon (3).png" alt="icon3" class="w-20 h-20">
-            <h4 class="text-white text-xl font-bold mt-8 mb-6">01. Learn</h4>
-            <p class="text-white my-2">Learn continually. There is always <br>“one more thing” to learn.</p>
+            <h4 class="text-white text-xl mt-8 mb-6">01. Learn</h4>
+            <p class="text-white my-2 text-xs">Learn continually. There is always <br>“one more thing” to learn.</p>
         </div>
 
     
@@ -297,8 +298,8 @@
 
         <div class="mt-24 max-w-md flex flex-col items-center text-center">
             <img src="./public/Icon (4).png" alt="icon4" class="w-20 h-20">
-            <h4 class="text-white text-xl font-bold mt-8 mb-6">02. Graduate</h4>
-            <p class="text-white my-2">Be bold, be courageous, <br> be your best.</p>
+            <h4 class="text-white text-xl mt-8 mb-6">02. Graduate</h4>
+            <p class="text-white my-2 text-xs">Be bold, be courageous, <br> be your best.</p>
         </div>
 
     
@@ -307,20 +308,20 @@
       
         <div class="mt-24 max-w-md flex flex-col items-center text-center">
             <img src="./public/Icon (5).png" alt="icon5" class="w-20 h-20">
-            <h4 class="text-white text-xl font-bold mt-8 mb-6">03. Work</h4>
-            <p class="text-white my-2">Great companies are built in <br> the office, with hard work put <br> in by the
+            <h4 class="text-white text-xl mt-8 mb-6">03. Work</h4>
+            <p class="text-white my-2 text-xs">Great companies are built in <br> the office, with hard work put <br> in by the
                 team.</p>
         </div>
     </div>
 </div>
 
 
-<div class="bg-xyz py-12">
+<div class="bg-xyz py-12 righteous-regular">
     <div class="flex flex-col items-center mt-16 px-4 sm:px-8 md:px-16 lg:px-24">
-        <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-relaxed text-gray-700 text-center">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-relaxed text-gray-700 text-center">
             Top <span class="text-blue-700">Categories</span>
         </h1>
-        <p class="mt-4 font-semibold text-lg sm:text-xl md:text-2xl text-gray-700 text-center tracking-widest mb-4 sm:mb-6">
+        <p class="mt-4 text-lg sm:text-xl md:text-2xl text-gray-500 text-center tracking-widest mb-4 sm:mb-6">
             100+ unique online course list designs
         </p>
     </div>
@@ -330,50 +331,50 @@
         <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
             <img src="./public/mask(6).png" alt="mask6" class="w-14">
             <div class="flex flex-col">
-                <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Digital <br>
+                <h2 class="text-[#324361] text-lg text-center mt-8 mb-2 ">Digital <br>
                     Marketing</h2>
-                <p class="mt-8 text-gray-500 font-semibold">25 Courses</p>
+                <p class="mt-8 text-gray-500 ">25 Courses</p>
             </div>
         </div>
 
         <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
             <img src="./public/mask(7).png" alt="mask7" class="w-14">
-            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Web <br>
+            <h2 class="text-[#324361] text-lg text-center mt-8 mb-2 ">Web <br>
                 Development</h2>
-            <p class="mt-8 text-gray-500 font-semibold">16 Courses</p>
+            <p class="mt-8 text-gray-500 ">16 Courses</p>
         </div>
 
         <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
             <img src="./public/mask(8).png" alt="mask8" class="w-14">
-            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Art & <br>
+            <h2 class="text-[#324361] text-lg text-center mt-8 mb-2 ">Art & <br>
                 Humanities</h2>
-            <p class="mt-8 text-gray-500 font-semibold">76 Courses</p>
+            <p class="mt-8 text-gray-500 ">76 Courses</p>
         </div>
 
         <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
             <img src="./public/mask(9).png" alt="mask9" class="w-14">
-            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Personal <br>
+            <h2 class="text-[#324361] text-lg text-center mt-8 mb-2 ">Personal <br>
                 Development</h2>
-            <p class="mt-8 text-gray-500 font-semibold">22 Courses</p>
+            <p class="mt-8 text-gray-500 ">22 Courses</p>
         </div>
 
         <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
             <img src="./public/mask(10).png" alt="mask10" class="w-14">
-            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">IT and <br>
+            <h2 class="text-[#324361] text-lg text-center mt-8 mb-2 ">IT and <br>
                 Software</h2>
-            <p class="mt-8 text-gray-500 font-semibold">110 Courses</p>
+            <p class="mt-8 text-gray-500 ">110 Courses</p>
         </div>
 
         <div class="rounded-xl shadow-xl max-w-xs flex flex-col items-center py-10 px-10 bg-white">
             <img src="./public/mask(11).png" alt="mask11" class="w-14">
-            <h2 class="text-[#324361] text-xl text-center mt-8 mb-2 font-semibold tracking-tighter">Graphic <br>
+            <h2 class="text-[#324361] text-lg text-center mt-8 mb-2 ">Graphic <br>
                 Design</h2>
-            <p class="mt-8 text-gray-500 font-semibold">85 Courses</p>
+            <p class="mt-8 text-gray-500 ">85 Courses</p>
         </div>
     </div>
 </div>
 
-<div class="container mx-auto flex justify-center relative bg-white">
+<div class="container mx-auto flex justify-center relative bg-white righteous-regular">
     <div class="relative">
         <svg width="80" height="82" viewBox="0 0 80 82" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-14 absolute top-28 left-96 hidden lg:block">
             <path opacity="0.5"
@@ -397,17 +398,17 @@
                 <img src="./public/e3.png" alt="e3">
             </div>
 
-            <h1 class="text-center text-5xl font-bold tracking- text-white">
+            <h1 class="text-center text-5xl  text-white">
                 Subscribe For Get Update <br>
                 Every New Courses
             </h1>
-            <p class="text-md tracking-widest my-8 text-white">
+            <p class="text-md tracking-widest font-light  my-8 text-white">
                 20k+ students daily learn with Eduvi. Subscribe for new courses.
             </p>
             
             <div class="md:flex items-center w-full lg:flex flex-row justify-center">
-                <input type="text" class="py-4 px-6 rounded-xl text-white text-left placeholder-white font-bold shadow-lg bg-transparent w-full sm:w-auto" placeholder="enter your email">
-                <button type="button" class="py-4 px-10 rounded-xl bg-blue-700 font-bold text-md text-white">Subscribe</button>
+                <input type="text" class="py-4 px-6 rounded-xl text-white text-left placeholder-white shadow-lg bg-transparent w-full sm:w-auto" placeholder="enter your email">
+                <button type="button" class="py-4 px-10 rounded-xl bg-blue-700 text-md text-white">Subscribe</button>
             </div>
         
             <div class="absolute w-10 h-10 top-16 right-16 hidden lg:block">
@@ -448,39 +449,41 @@
 
 </div>
 
-<div class="bg-xyz relative">
+<div class="bg-xyz relative righteous-regular">
     <div class="flex flex-col items-center mt-16 px-4 sm:px-8">
-        <h2 class="font-bold text-2xl sm:text-3xl lg:text-4xl mt-8 lg:mt-16 mb-4 lg:mb-8 tracking-tight text-blue-600">
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl mt-8 lg:mt-16 mb-4 lg:mb-8 tracking-tight text-blue-600">
             Testimonials</h2>
-        <p class="text-lg sm:text-xl lg:text-2xl mb-6 lg:mb-7 font-semibold text-gray-500 tracking-tight">What our
+        <p class="text-lg sm:text-xl lg:text-2xl mb-6 lg:mb-7  text-gray-500 tracking-tight">What our
             students say about us</p>
     </div>
 
-    <!-- Testimonials Cards -->
+    
     <div class="md:flex items-center flex-col lg:flex-row lg:justify-center relative py-8 sm:py-12 lg:py-16 gap-8 lg:gap-0 ">
         
         <div
-            class="max-w-md px-6 sm:px-10 py-6 sm:py-4 my-6 lg:my-16 relative shadow-2xl lg:left-6 text-gray-400 font-bold leading-6 bg-white shadow-transparent">
+            class="max-w-md px-6 sm:px-10 py-6 sm:py-4 my-6 lg:my-16 relative shadow-2xl lg:left-6 text-gray-400 leading-6 bg-white shadow-transparent">
             <img src="./public/pic.png" alt="pic" class="w-10 absolute left-1/2 transform -translate-x-1/2 -top-6">
-            <p class="text-xs sm:text-xs mt-6 text-center lg:text-left">Such an amazing traniner and easily understand the entire
-            syllabus, and the guidence will be super and good to the way of explaning.</p>
+            <p class="text-xs sm:text-xs mt-6 text-center lg:text-left">Such an amazing traniner and easily understand the entire <span class="leading-10">
+            syllabus, and the guidence will be super and good to the way of</span> explaning.</p>
             <img src="./public/review.png" alt="review" class="w-20 sm:w-24 mt-4 sm:mt-6 mx-auto lg:mx-0">
         </div>
 
         <div
-            class="max-w-md px-6 sm:px-10 py-6 sm:py-4 my-6 lg:my-16 relative shadow-2xl text-gray-400 font-bold leading-6 lg:-top-12 bg-white">
+            class="max-w-md px-6 sm:px-10 py-6 sm:py-4 my-6 lg:my-16 relative shadow-2xl text-gray-400 leading-6 lg:-top-12 bg-white">
             <img src="./public/pic.png" alt="pic" class="w-10 absolute left-1/2 transform -translate-x-1/2 -top-6">
             <p class="text-xs sm:text-xs mt-6 text-center lg:text-left">Such an amazing traniner and easily understand the entire
-            syllabus, and the guidence will be super and good to the way of explaning.</p>
+                <span class="leading-10">
+                    syllabus, and the guidence will be super and good to the way of</span> explaning.
             <img src="./public/review.png" alt="review" class="w-20 sm:w-24 mt-4 sm:mt-6 mx-auto lg:mx-0">
         </div>
 
        
         <div
-            class="max-w-md px-6 sm:px-10 py-6 sm:py-4 my-6 lg:my-16 relative shadow-2xl text-gray-400 font-bold leading-6 lg:right-6 bg-white shadow-transparent">
+            class="max-w-md px-6 sm:px-10 py-6 sm:py-4 my-6 lg:my-16 relative shadow-2xl text-gray-400 leading-6 lg:right-6 bg-white shadow-transparent">
             <img src="./public/pic.png" alt="pic" class="w-10 absolute left-1/2 transform -translate-x-1/2 -top-6">
             <p class="text-xs sm:text-xs mt-6 text-center lg:text-left">Such an amazing traniner and easily understand the entire
-            syllabus, and the guidence will be super and good to the way of explaning.</p>
+                <span class="leading-10">
+                    syllabus, and the guidence will be super and good to the way of</span> explaning.
             <img src="./public/review.png" alt="review" class="w-20 sm:w-24 mt-4 sm:mt-6 mx-auto lg:mx-0">
         </div>
     </div>
@@ -492,15 +495,15 @@
 </div>
 
 
-<footer class="bg-foot text-black py-12">
+<footer class="bg-foot text-black py-12 righteous-regular">
     <div class="container mx-auto px-4">
         
         <div class="flex flex-col lg:flex-row lg:justify-around gap-8 text-center lg:text-left">
 
             <div class="flex flex-col items-center lg:items-start">
-                <h3 class="text-2xl font-bold mb-4">Connect</h3>
-                <img src="./public/footlogo.png" alt="Logo" class="w-32 mb-4 lg:mx-0">
-                <p class="text-sm font-medium text-center lg:text-left">
+                <h3 class="text-2xl mb-4">Connect</h3>
+                <img src="./public/footlogo.png" alt="Logo" class="w-44 mb-4 lg:mx-0">
+                <p class="text-sm text-center lg:text-left">
                     Sri Jaganath Nivas, 8-1-164/345/A/1, <br>
                     Pragati Colony, Mallepally, <br>
                     Nawaab Saheb Kunta, Hyd, 500005
@@ -509,8 +512,8 @@
 
            
             <div class="hidden lg:block">
-                <h3 class="text-2xl font-bold mb-4">Classes</h3>
-                <ul class="space-y-3 text-sm font-bold">
+                <h3 class="text-2xl  mb-4">Classes</h3>
+                <ul class="space-y-3 text-sm ">
                     <li>Classroom courses</li>
                     <li>Virtual classroom courses</li>
                     <li>E-learning courses</li>
@@ -521,8 +524,8 @@
 
         
             <div class="hidden lg:block">
-                <h3 class="text-2xl font-bold mb-4">Community</h3>
-                <ul class="space-y-3 text-sm font-bold">
+                <h3 class="text-2xl mb-4">Community</h3>
+                <ul class="space-y-3 text-sm ">
                     <li>Learners</li>
                     <li>Partners</li>
                     <li>Developers</li>
@@ -533,8 +536,8 @@
 
          
             <div class="hidden lg:block">
-                <h3 class="text-2xl font-bold mb-4">Quick Links</h3>
-                <ul class="space-y-3 text-sm font-bold">
+                <h3 class="text-2xl mb-4">Quick Links</h3>
+                <ul class="space-y-3 text-sm ">
                     <li>Home</li>
                     <li>Professional Education</li>
                     <li>Courses</li>
@@ -546,8 +549,8 @@
 
           
             <div class="hidden lg:block">
-                <h3 class="text-2xl font-bold mb-4">More</h3>
-                <ul class="space-y-3 text-sm font-bold">
+                <h3 class="text-2xl mb-4">More</h3>
+                <ul class="space-y-3 text-sm ">
                     <li>Press</li>
                     <li>Investors</li>
                     <li>Terms</li>
@@ -575,8 +578,8 @@
 
 <footer>
     <div>
-        <div class="bg-[#4253e8] text-center">
-            <p class="text-xs font-semibold text-white ">Copyright @ 2023 askmeidentity. All Rights Reserved</p>
+        <div class="bg-[#4253e8] text-center righteous-regular">
+            <p class="text-xs  text-white ">Copyright @ 2023 askmeidentity. All Rights Reserved</p>
         </div>
         <div class="bg-blue-200 py-1">
         </div>

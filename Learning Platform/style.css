@@ -1,3 +1,28 @@
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rowdies-bold {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.saira-regular {
+  font-family: "Saira", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
 .bg-radial {
     background-image: radial-gradient(circle at 30% 30%, #4340b0 100%, #E7E8F3 40%);
 }
@@ -31,4 +56,24 @@
 .bg-foot1{
     background: linear-gradient(265.4deg, #2766e3 40.58%, rgba(147, 27, 189, 0.85) 98%);
 }
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporidunt ut labore veniam... */
+
+position: absolute;
+width: 728px;
+height: 70px;
+left: 584px;
+top: 3262px;
+
+font-family: 'Saira';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+/* or 140% */
+text-align: center;
+
+color: #FFFFFF;
+
+
 
